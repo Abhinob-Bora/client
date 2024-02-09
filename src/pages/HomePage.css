@@ -1,0 +1,14 @@
+.home-page-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  .livestream-player-container {
+    width: 100%; /* Adjust the width as needed */
+  }
+  
+  .overlay-options-container {
+    width: 100%; /* Adjust the width as needed */
+  }
+  

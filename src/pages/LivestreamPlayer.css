@@ -1,0 +1,41 @@
+.livestream-player-container {
+  position: relative;
+  max-width: 800px; /* Adjust maximum width as needed */
+  margin: 0 auto;
+  padding: 0px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.livestream-video {
+  width: 100%;
+  position: relative; /* Positioning context for overlay */
+}
+
+.overlay-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.overlay {
+  position: absolute;
+}
+
+.text-overlay {
+  position: absolute;
+  top: 0px; /* Adjust top position as needed */
+  right: 0px; /* Adjust right position as needed */
+  font-size: 1.5rem; /* Adjust font size as needed */
+  color: #ffffff; /* Text color, adjust as needed */
+  background-color: rgba(0, 0, 0, 0.5); /* Background color, adjust as needed */
+  padding: 20px; /* Adjust padding as needed */
+}
+
+.controls-container {
+  display: flex;
+  justify-content: space-between;
+}

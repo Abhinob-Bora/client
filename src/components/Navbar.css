@@ -1,0 +1,48 @@
+/* Navbar container */
+.navbar {
+    background-color: #6490bc; /* Light gray background */
+    padding: 10px 0;
+  }
+  
+  /* Navbar container within a certain width */
+  .container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+
+  
+  /* Navigation menu */
+  .nav-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  /* Navigation items */
+  .nav-item {
+    margin-right: 20px;
+  }
+  
+  /* Navigation links */
+  .nav-link {
+    color: #333; /* Dark gray text color */
+    text-decoration: none; /* Remove default link underline */
+    transition: color 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    color: #007bff; /* Change color on hover to a light blue */
+  }
+  
+  /* User profile icon */
+  .user-profile-icon {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+  }
+  
